@@ -1,4 +1,11 @@
-¸ĞĞ»ÄúµÄÏÂÔØ¡£
+# Emulate Spy++ Message Monitor and Capturer
+Monitor and Hook WH_CALLWNDPROC, WH_CALLWNDPROCRET, WH_GETMESSAGE 
 
-SymbolicMessages.h£º·ÅÔÚC:¸ùÄ¿Â¼ÏÂ¡£
-test.txt: ÊÇ¼à¿ØÈÎÎñ¹ÜÀíÆ÷µÄ×¥È¡µÄÏûÏ¢Æ¬¶Î¡£
+## Software Environment
+* Windows 7 64bit
+* Visual Studio 2010
+
+## Notice
+SymbolicMessages.h: put it at C:\
+test.txt: message pieces of monitoring taskmgr.exe
+ç›‘æ§ä»»åŠ¡ç®¡ç†å™¨.png: console demo
