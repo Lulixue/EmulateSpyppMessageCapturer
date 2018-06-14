@@ -1,4 +1,0 @@
-LIBRARY MyDll
-EXPORTS
-StartCallWndHook @1
-CallWndHookProc @2

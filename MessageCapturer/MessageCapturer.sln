@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MessageCapturer", "MessageCapturer\MessageCapturer.vcxproj", "{D450F9DF-AAFB-450F-BB02-4AE07C3586E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54201145-78A3-493B-857B-98E24F9596A3} = {54201145-78A3-493B-857B-98E24F9596A3}
+		{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07} = {1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}
+		{2A624FBA-16AE-4425-A169-8DB196E45FD8} = {2A624FBA-16AE-4425-A169-8DB196E45FD8}
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB} = {EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallWndProcHook", "CallWndProcHook\CallWndProcHook.vcxproj", "{2A624FBA-16AE-4425-A169-8DB196E45FD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB} = {EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GetMessageHook", "GetMessageHook\GetMessageHook.vcxproj", "{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB} = {EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallWndProcRetHook", "CallWndProcRetHook\CallWndProcRetHook.vcxproj", "{54201145-78A3-493B-857B-98E24F9596A3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB} = {EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "Shared\Shared.vcxproj", "{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D450F9DF-AAFB-450F-BB02-4AE07C3586E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D450F9DF-AAFB-450F-BB02-4AE07C3586E6}.Debug|Win32.Build.0 = Debug|Win32
+		{D450F9DF-AAFB-450F-BB02-4AE07C3586E6}.Release|Win32.ActiveCfg = Release|Win32
+		{D450F9DF-AAFB-450F-BB02-4AE07C3586E6}.Release|Win32.Build.0 = Release|Win32
+		{2A624FBA-16AE-4425-A169-8DB196E45FD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A624FBA-16AE-4425-A169-8DB196E45FD8}.Debug|Win32.Build.0 = Debug|Win32
+		{2A624FBA-16AE-4425-A169-8DB196E45FD8}.Release|Win32.ActiveCfg = Release|Win32
+		{2A624FBA-16AE-4425-A169-8DB196E45FD8}.Release|Win32.Build.0 = Release|Win32
+		{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}.Debug|Win32.Build.0 = Debug|Win32
+		{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}.Release|Win32.ActiveCfg = Release|Win32
+		{1CD28FAC-FD9C-4E0A-A301-6AC1DF8D7F07}.Release|Win32.Build.0 = Release|Win32
+		{54201145-78A3-493B-857B-98E24F9596A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54201145-78A3-493B-857B-98E24F9596A3}.Debug|Win32.Build.0 = Debug|Win32
+		{54201145-78A3-493B-857B-98E24F9596A3}.Release|Win32.ActiveCfg = Release|Win32
+		{54201145-78A3-493B-857B-98E24F9596A3}.Release|Win32.Build.0 = Release|Win32
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}.Debug|Win32.Build.0 = Debug|Win32
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}.Release|Win32.ActiveCfg = Release|Win32
+		{EEBD0AF7-16CA-45F1-82C0-E47FA466C8BB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
